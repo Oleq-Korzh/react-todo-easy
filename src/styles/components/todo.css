@@ -34,14 +34,6 @@
     padding: 8px;
 }
 
-.todo__button {
-    background: var(--color-purple);
-    padding: 8px 16px;
-    color: var(--color-white);
-    border-radius: 6px;
-    cursor: pointer;
-}
-
 .todo__empty {
     display: flex;
     align-items: center;
@@ -54,4 +46,10 @@
 .todo__content {
     display: grid;
     grid-row-gap: 16px;
+}
+
+.todo__allclean {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
 }
