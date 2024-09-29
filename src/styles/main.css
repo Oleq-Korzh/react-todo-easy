@@ -1,0 +1,11 @@
+@import "./utils/reset.css";
+@import "./utils/variables.css";
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background: #FAEBD7;
+}
