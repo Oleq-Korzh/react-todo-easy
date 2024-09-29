@@ -24,6 +24,7 @@
 .todo__head {
     display: flex;
     column-gap: 16px;
+    margin-bottom: 16px;
 }
 
 .todo__input {
@@ -48,4 +49,9 @@
     justify-content: center;
     flex-grow: 1;
     color: var(--color-grey);
+}
+
+.todo__content {
+    display: grid;
+    grid-row-gap: 16px;
 }

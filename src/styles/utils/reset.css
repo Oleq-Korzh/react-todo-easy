@@ -37,15 +37,3 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
-::-moz-selection {
-    background: none;
-}
-
-::selection {
-    background: none;
-}
-
-a:focus, button:focus {
-    outline: none;
-}
